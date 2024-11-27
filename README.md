@@ -28,3 +28,21 @@ The RTL8720dn-Deauther utilizes the RGB led that most devboards have. This is wh
 * Blue: Flashes when a deauth frame is being sent.
 ## License
 All files within this repo are released under the GNU GPL V3 License as per the LICENSE file stored in the root of this repo.
+
+# Requirement
+1. RTL8720DN BW16
+2. BUTTONS (3)
+3. SSD1306 OLED
+# Setup
+ - Board Manger version 3.1.5 ( I use this version)  
+ - Adafruit_SSD1306  
+ - Adafruit GFX  
+ - Tool -> Standard Lib Enable -> "Arduino_STD_PRINTF"  
+# Connection
+## button
+1. Up PA27
+2. Down PA12
+3. OK PA13
+## display
+1. SCL PA25
+2. SDA PA26
